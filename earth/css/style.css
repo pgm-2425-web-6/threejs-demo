@@ -1,0 +1,31 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: sans-serif;
+}
+canvas { 
+    display: block; 
+}
+
+.infoDiv {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    max-width: 300px;
+}
+
+.infoDiv h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.infoDiv p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
